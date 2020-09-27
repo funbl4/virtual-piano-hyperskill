@@ -1,0 +1,42 @@
+body {
+    background-color: #366141;
+}
+
+
+.white-keys kbd {
+    border: 2px solid #929292;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 110px 20px 30px;
+    margin-left: -5px;
+    position: relative;
+}
+
+.black-keys kbd {
+    z-index: 1;
+    border: 2px solid #929292;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 50px 10px 30px;
+    margin-left: 20px;
+}
+
+.container {
+    width: 600px;
+    margin: 10%;
+}
+
+.black-keys-left {
+    position: relative;
+    left: 5px;
+    top: 100px;
+}
+
+.black-keys-right {
+    position: relative;
+    left: 40px;
+    top: 100px;
+}
